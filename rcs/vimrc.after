@@ -72,6 +72,8 @@ cnoreabbrev Qall qall
 """ Plugins
 "*****************************************************************************
 
+"" Abolish
+
 "" Ack
 let g:ackprg='ack -H --nocolor --nogroup --column --smart-case --sort-files'
 
