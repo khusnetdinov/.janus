@@ -2,6 +2,7 @@
 """ General
 "*****************************************************************************
 
+
 "" Encoding
 set fileencoding=utf-8
 set fileencodings=utf-8
@@ -46,17 +47,39 @@ set textwidth=80
 set colorcolumn=+1
 highlight ColorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
+color Tomorrow-Night
+
 "*****************************************************************************
 """ Mappings
 "*****************************************************************************
 
 "*****************************************************************************
+"""" Abbreviations
+"*****************************************************************************
+
+cnoreabbrev W! w!
+cnoreabbrev Q! q!
+cnoreabbrev Qall! qall!
+cnoreabbrev Wq wq
+cnoreabbrev Wa wa
+cnoreabbrev wQ wq
+cnoreabbrev WQ wq
+cnoreabbrev W w
+cnoreabbrev Q q
+cnoreabbrev Qall qall
+
+"*****************************************************************************
 """ Plugins
 "*****************************************************************************
 
-color Tomorrow-Night
+"" Ack
+let g:ackprg='ack -H --nocolor --nogroup --column --smart-case --sort-files'
+
+cnoreabbrev Ack Ack!
+nnoremap <Leader>a :Ack!<Space>
 
 "" NERDCommenter
 let g:NERDSpaceDelims = 1
 
 " vim:ft=vim
+
