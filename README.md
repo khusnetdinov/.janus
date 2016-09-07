@@ -13,6 +13,6 @@ witch safely install all plugins and link rc files without touching any
 Vim and Janus files.
 
 ```bash
-$ curl -L https://github.com/khusnetdinov/.janus/install.sh | bash
+$ curl -L http://bit.ly/2bTpEk4 | bash
 ```
 
