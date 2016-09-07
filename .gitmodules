@@ -10,3 +10,6 @@
 [submodule "vim-ansible-yaml"]
 	path = vim-ansible-yaml
 	url = https://github.com/chase/vim-ansible-yaml
+[submodule "vim-indent-guides"]
+	path = vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
