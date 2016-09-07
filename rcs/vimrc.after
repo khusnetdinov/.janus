@@ -78,6 +78,16 @@ let g:ackprg='ack -H --nocolor --nogroup --column --smart-case --sort-files'
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
 
+"" Airline
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_theme='tomorrow'
+
+let g:airline#extensions#ctrlp#enabled = 1
+let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#branch#enabled = 1
+
 "" NERDCommenter
 let g:NERDSpaceDelims = 1
 
