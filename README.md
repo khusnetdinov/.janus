@@ -1,2 +1,18 @@
 # .janus
-My vim files for janus distribution
+
+Vim files for janus distribution witch customize.
+
+### Pre-requisites
+
+You need install [Janus distribution](https://github.com/carlhuda/janus) of Vim.
+
+### Installation
+
+To install .janus files to home director please use installing script
+witch safely install all plugins and link rc files without touching any
+Vim and Janus files.
+
+```bash
+$ curl -L https://github.com/khusnetdinov/.janus/install.sh | bash
+```
+
