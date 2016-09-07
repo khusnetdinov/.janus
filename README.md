@@ -1,6 +1,6 @@
 # .janus
 
-Vim files for janus distribution witch customize.
+Vim files for customization janus distribution. 
 
 ### Pre-requisites
 
