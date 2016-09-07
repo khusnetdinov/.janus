@@ -1,1 +1,54 @@
+"*****************************************************************************
+""" General
+"*****************************************************************************
+
+"" Encoding
+set fileencoding=utf-8
+set fileencodings=utf-8
+
+"" Binary
+set bomb
+set binary
+set ttyfast
+
+"" Status line
+set laststatus=2
+set statusline=\ %F%m%r%h%w%=[%{&ff}/%Y]\ \ \ [line\:\ %l\/%L,\ col\:\ %c]\ \ \ %p%%\ \ \ %{strftime(\"%H:%M:%S\")}\ 
+
+"" Trailing symbols
+highlight ColorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+
+"" Cursor
+set cursorline
+set cursorcolumn
+highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
+let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
+let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+
+
+"" Split
+set splitbelow
+set splitright
+
+"" Switching mode tricks
+set ttimeout
+set ttimeoutlen=1
+
+"" Ruler
+set textwidth=80
+set colorcolumn=+1
+highlight ColorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+
+
+
 color Tomorrow-Night
+
+"" NERDCommenter
+let g:NERDSpaceDelims = 1
