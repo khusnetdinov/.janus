@@ -1,4 +1,4 @@
-# .janus
+# .Janus
 
 Vim files for customization janus distribution.
 
@@ -19,30 +19,42 @@ $ curl -L http://bit.ly/2bTpEk4 | bash
 ```
 # More languages:
 
- * EcmaScript 7 *
- * Jsx / Cjsx *
- * Jade *
- * Elm *
- * Lua *
+ - EcmaScript 7
+ - Jsx / Cjsx
+ - Jade
+ - Elm
+ - Lua
 
 # More tools:
 
 Additional plugina are included to this distribution.
 
 ## [Abolish](https://github.com/tpope/vim-abolish)
+ Todo
 ## [Airline](https://github.com/vim-airline/vim-airline)
+ Todo
 ## [Ansible](https://github.com/chase/vim-ansible-yaml)
+ Todo
 ## [Elm](https://github.com/ElmCast/elm-vim)
+ Todo
 ## [Indent guides](https://github.com/nathanaelkane/vim-indent-guides)
+ Todo
 ## Advanced HTML support with [Emmet](https://github.com/mattn/emmet-vim)
+ Todo
 ## [Jade](https://github.com/digitaltoad/vim-pug)
+ Todo
 ## [Lua](https://github.com/xolox/vim-lua-inspect)
+ Todo
 ## [Elixir Mix](https://github.com/mattreduce/vim-mix)
+ Todo
 ## Rails tools ([Bundler](https://github.com/tpope/vim-bundler), [Rake](https://github.com/tpope/vim-rake))
-## React Jsx ([Jsx](https://github.com/mxw/vim-jsx),
-[Cjsx](https://github.com/mtscout6/vim-cjsx))
-## [Rspec](https://github.com/thoughtbot/vim-rspec
-) with [Test runner](https://github.com/gabebw/vim-spec-runner)
+ Todo
+## React ([Jsx](https://github.com/mxw/vim-jsx), [Cjsx](https://github.com/mtscout6/vim-cjsx))
+ Todo
+## [Rspec](https://github.com/thoughtbot/vim-rspec) with [Test runner](https://github.com/gabebw/vim-spec-runner)
+ Todo
 ## [Sessios](https://github.com/xolox/vim-session)
+ Todo
 ## [Ultisnippets](https://github.com/SirVer/ultisnips)
+ Todo
 
