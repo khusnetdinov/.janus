@@ -40,3 +40,42 @@
 [submodule "vim-mix"]
 	path = vim-mix
 	url = https://github.com/mattreduce/vim-mix
+[submodule "elm-vim"]
+	path = elm-vim
+	url = https://github.com/ElmCast/elm-vim
+[submodule "delimitMate"]
+	path = delimitMate
+	url = https://github.com/Raimondi/delimitMate
+[submodule "vim-titlecase"]
+	path = vim-titlecase
+	url = https://github.com/christoomey/vim-titlecase
+[submodule "ultisnips"]
+	path = ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "vim-snippets"]
+	path = vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "vim-sessions"]
+	path = vim-sessions
+	url = https://github.com/xolox/vim-session
+[submodule "vim-rspec"]
+	path = vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec
+[submodule "vim-spec-runner"]
+	path = vim-spec-runner
+	url = https://github.com/gabebw/vim-spec-runner
+[submodule "vim-textobj-user"]
+	path = vim-textobj-user
+	url = https://github.com/kana/vim-textobj-user
+[submodule "vim-textobj-rubyblock"]
+	path = vim-textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock
+[submodule "vim-indent-object"]
+	path = vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
+[submodule "vim-rake"]
+	path = vim-rake
+	url = https://github.com/tpope/vim-rake
+[submodule "vim-bundler"]
+	path = vim-bundler
+	url = https://github.com/tpope/vim-bundler

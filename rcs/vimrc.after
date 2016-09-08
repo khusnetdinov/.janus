@@ -55,6 +55,15 @@ set scrolloff=5
 """ Mappings
 "*****************************************************************************
 
+let g:vim_json_syntax_conceal = 0
+
+function! s:PrettyJSON()
+  %!jq .
+  set filetype=json
+endfunction
+
+command! PrettyJSON :call <sid>PrettyJSON()
+
 "*****************************************************************************
 """" Abbreviations
 "*****************************************************************************
@@ -81,6 +90,21 @@ let g:ackprg='ack -H --nocolor --nogroup --column --smart-case --sort-files'
 
 cnoreabbrev Ack Ack!
 nnoremap <Leader>a :Ack!<Space>
+
+"" Elm
+
+let g:elm_setup_keybindings = 0
+let g:elm_classic_highlighting = 1
+
+" let g:elm_jump_to_error = 0
+" let g:elm_make_output_file = "elm.js"
+" let g:elm_make_show_warnings = 0
+" let g:elm_syntastic_show_warnings = 0
+" let g:elm_browser_command = ""
+" let g:elm_detailed_complete = 0
+" let g:elm_format_autosave = 0
+" let g:elm_setup_keybindings = 1
+" let g:elm_classic_highlighting = 0
 
 "" NERDCommenter
 let g:NERDSpaceDelims = 1

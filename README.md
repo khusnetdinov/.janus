@@ -1,10 +1,12 @@
 # .janus
 
-Vim files for customization janus distribution. 
+Vim files for customization janus distribution.
 
 ### Pre-requisites
 
 You need install [Janus distribution](https://github.com/carlhuda/janus) of Vim.
+
+Also this distribution requires `jq`.
 
 ### Installation
 
