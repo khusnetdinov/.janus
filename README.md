@@ -53,7 +53,7 @@ Additional plugina are included to this distribution.
  Todo
 ## [Rspec](https://github.com/thoughtbot/vim-rspec) with [Test runner](https://github.com/gabebw/vim-spec-runner)
  Todo
-## [Sessios](https://github.com/xolox/vim-session)
+## [Sessions](https://github.com/xolox/vim-session)
  Todo
 ## [Ultisnippets](https://github.com/SirVer/ultisnips)
  Todo
