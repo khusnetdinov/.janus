@@ -84,6 +84,7 @@ nnoremap <Leader>a :Ack!<Space>
 
 "" NERDCommenter
 let g:NERDSpaceDelims = 1
+let NERDTreeShowHidden = 1
 
 " vim:ft=vim
 

@@ -1,0 +1,64 @@
+# languages
+
+lua:
+'xolox/vim-lua-ftplugin', { 'for': 'lua' }
+'xolox/vim-lua-inspect', { 'for': 'lua' }
+jsx:
+'mxw/vim-jsx', { 'for': ['javascript'] }
+'mtscout6/vim-cjsx', { 'for': ['coffee'] }
+json:
+let g:vim_json_syntax_conceal = 0
+function! s:PrettyJSON()
+  %!jq .
+  set filetype=json
+endfunction
+command! PrettyJSON :call <sid>PrettyJSON()
+javascript:
+'mxw/vim-jsx', { 'for': 'javascript' }
+'kern/vim-es7', { 'for': 'javascript' }
+jade:
+'digitaltoad/vim-jade', { 'for': 'jade' }
+html:
+'othree/html5.vim', { 'for': 'html' }
+'mattn/emmet-vim', { 'for': 'html' }
+elm:
+'ElmCast/elm-vim'
+
+let g:elm_setup_keybindings = 0
+let g:elm_classic_highlighting = 1
+
+" let g:elm_jump_to_error = 0
+" let g:elm_make_output_file = "elm.js"
+" let g:elm_make_show_warnings = 0
+" let g:elm_syntastic_show_warnings = 0
+" let g:elm_browser_command = ""
+" let g:elm_detailed_complete = 0
+" let g:elm_format_autosave = 0
+" let g:elm_setup_keybindings = 1
+" let g:elm_classic_highlighting = 0
+elixir:
+'mattreduce/vim-mix'
+css:
+'hail2u/vim-css3-syntax', { 'for': ['css', 'scss', 'sass', 'less'] }
+
+# plugins:
+Autoclosing
+'Raimondi/delimitMate'
+titlecase:
+'christoomey/vim-titlecase'
+snippets:
+'SirVer/ultisnips'
+'honza/vim-snippets'
+sessions:
+'xolox/vim-misc'
+'xolox/vim-session'
+rspec:
+'thoughtbot/vim-rspec'
+'gabebw/vim-spec-runner'
+rails:
+'tpope/vim-rake'
+'tpope/vim-bundler'
+object:
+'kana/vim-textobj-user'
+'nelstrom/vim-textobj-rubyblock'
+'michaeljsmith/vim-indent-object'
