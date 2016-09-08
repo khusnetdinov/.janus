@@ -41,8 +41,6 @@ Additional plugina are included to this distribution.
  Todo
 ## Advanced HTML support with [Emmet](https://github.com/mattn/emmet-vim)
  Todo
-## [Jade](https://github.com/digitaltoad/vim-pug)
- Todo
 ## [Lua](https://github.com/xolox/vim-lua-inspect)
  Todo
 ## [Elixir Mix](https://github.com/mattreduce/vim-mix)
