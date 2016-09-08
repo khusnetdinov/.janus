@@ -2,6 +2,11 @@
 """ General
 "*****************************************************************************
 
+"" Colors
+set t_Co=256
+set background=dark
+
+color Tomorrow-Night
 
 "" Encoding
 set fileencoding=utf-8
@@ -22,8 +27,6 @@ highlight ColorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred gui
 "" Cursor
 set cursorline
 set cursorcolumn
-highlight CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
-highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
@@ -32,7 +35,6 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
 let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
 let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-
 
 "" Split
 set splitbelow
@@ -45,11 +47,9 @@ set ttimeoutlen=1
 "" Ruler
 set textwidth=80
 set colorcolumn=+1
-highlight ColorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight ColorColumn cterm=NONE ctermbg=black ctermfg=black guibg=black guifg=black
 
-set t_Co=256
 set scrolloff=5
-color Tomorrow-Night
 
 "*****************************************************************************
 """ Mappings
