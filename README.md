@@ -21,7 +21,6 @@ $ curl -L http://bit.ly/2bTpEk4 | bash
 
  - EcmaScript 7
  - Jsx / Cjsx
- - Jade
  - Elm
  - Lua
 
