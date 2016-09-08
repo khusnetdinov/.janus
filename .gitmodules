@@ -79,3 +79,6 @@
 [submodule "vim-bundler"]
 	path = vim-bundler
 	url = https://github.com/tpope/vim-bundler
+[submodule "vim-misc"]
+	path = vim-misc
+	url = https://github.com/xolox/vim-misc
