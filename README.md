@@ -25,24 +25,14 @@ $ curl -L http://bit.ly/2bTpEk4 | bash
 
 # More tools:
 
-Additional plugina are included to this distribution.
+Additional plugins are included to this distribution.
 
-## [Abolish](https://github.com/tpope/vim-abolish)
- Todo
-## [Airline](https://github.com/vim-airline/vim-airline)
- Todo
-## [Ansible](https://github.com/chase/vim-ansible-yaml)
- Todo
-## [Elm](https://github.com/ElmCast/elm-vim)
- Todo
-## [Indent guides](https://github.com/nathanaelkane/vim-indent-guides)
- Todo
-## Advanced HTML support with [Emmet](https://github.com/mattn/emmet-vim)
- Todo
-## [Elixir Mix](https://github.com/mattreduce/vim-mix)
- Todo
-## React ([Jsx](https://github.com/mxw/vim-jsx)
- Todo
-## [Sessions](https://github.com/xolox/vim-session)
- Todo
-
+ - [Abolish](https://github.com/tpope/vim-abolish)
+ - [Airline](https://github.com/vim-airline/vim-airline)
+ - [Elm](https://github.com/ElmCast/elm-vim)
+ - [Indent guides](https://github.com/nathanaelkane/vim-indent-guides)
+ - [Emmet](https://github.com/mattn/emmet-vim)
+ - [Elixir Mix](https://github.com/mattreduce/vim-mix)
+ - [React Jsx](https://github.com/mxw/vim-jsx)
+ - [Sessions](https://github.com/xolox/vim-session)
+ 
