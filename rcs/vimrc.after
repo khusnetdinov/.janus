@@ -25,8 +25,8 @@ set statusline=\ %F%m%r%h%w%=[%{&ff}/%Y]\ \ [line\:\ %l\/%L,\ col\:\ %c]\ \ %p%%
 highlight ColorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 "" Cursor
-set cursorline
-set cursorcolumn
+" set cursorline
+" set cursorcolumn
 
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
@@ -45,11 +45,19 @@ set ttimeout
 set ttimeoutlen=1
 
 "" Ruler
-set textwidth=80
-set colorcolumn=+1
-highlight ColorColumn cterm=NONE ctermbg=black ctermfg=black guibg=black guifg=black
+" set textwidth=80
+" set colorcolumn=+1
+" highlight ColorColumn cterm=NONE ctermbg=black ctermfg=black guibg=black guifg=black
 
 set scrolloff=5
+
+"" Tabs.
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set shiftround
+set expandtab
+set autoindent
 
 "*****************************************************************************
 """ Mappings
