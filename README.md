@@ -20,9 +20,8 @@ $ curl -L http://bit.ly/2bTpEk4 | bash
 # More languages:
 
  - EcmaScript 7
- - Jsx / Cjsx
+ - Jsx 
  - Elm
- - Lua
 
 # More tools:
 
@@ -40,15 +39,9 @@ Additional plugina are included to this distribution.
  Todo
 ## Advanced HTML support with [Emmet](https://github.com/mattn/emmet-vim)
  Todo
-## [Lua](https://github.com/xolox/vim-lua-inspect)
- Todo
 ## [Elixir Mix](https://github.com/mattreduce/vim-mix)
  Todo
-## Rails tools ([Bundler](https://github.com/tpope/vim-bundler), [Rake](https://github.com/tpope/vim-rake))
- Todo
-## React ([Jsx](https://github.com/mxw/vim-jsx), [Cjsx](https://github.com/mtscout6/vim-cjsx))
- Todo
-## [Rspec](https://github.com/thoughtbot/vim-rspec) with [Test runner](https://github.com/gabebw/vim-spec-runner)
+## React ([Jsx](https://github.com/mxw/vim-jsx)
  Todo
 ## [Sessions](https://github.com/xolox/vim-session)
  Todo

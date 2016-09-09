@@ -7,30 +7,15 @@
 [submodule "vim-abolish"]
 	path = vim-abolish
 	url = https://github.com/tpope/vim-abolish
-[submodule "vim-ansible-yaml"]
-	path = vim-ansible-yaml
-	url = https://github.com/chase/vim-ansible-yaml
 [submodule "vim-indent-guides"]
 	path = vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides
-[submodule "vim-lua-ftplugin"]
-	path = vim-lua-ftplugin
-	url = https://github.com/xolox/vim-lua-ftplugin
-[submodule "vim-lua-inspect"]
-	path = vim-lua-inspect
-	url = https://github.com/xolox/vim-lua-inspect
 [submodule "vim-jsx"]
 	path = vim-jsx
 	url = https://github.com/mxw/vim-jsx
-[submodule "vim-cjsx"]
-	path = vim-cjsx
-	url = https://github.com/mtscout6/vim-cjsx
 [submodule "vim-es7"]
 	path = vim-es7
 	url = https://github.com/kern/vim-es7
-[submodule "vim-pug"]
-	path = vim-pug
-	url = https://github.com/digitaltoad/vim-pug
 [submodule "html5"]
 	path = html5
 	url = https://github.com/othree/html5.vim
@@ -46,21 +31,12 @@
 [submodule "delimitMate"]
 	path = delimitMate
 	url = https://github.com/Raimondi/delimitMate
-[submodule "vim-titlecase"]
-	path = vim-titlecase
-	url = https://github.com/christoomey/vim-titlecase
 [submodule "vim-snippets"]
 	path = vim-snippets
 	url = https://github.com/honza/vim-snippets
 [submodule "vim-sessions"]
 	path = vim-sessions
 	url = https://github.com/xolox/vim-session
-[submodule "vim-rspec"]
-	path = vim-rspec
-	url = https://github.com/thoughtbot/vim-rspec
-[submodule "vim-spec-runner"]
-	path = vim-spec-runner
-	url = https://github.com/gabebw/vim-spec-runner
 [submodule "vim-textobj-user"]
 	path = vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user
@@ -70,12 +46,6 @@
 [submodule "vim-indent-object"]
 	path = vim-indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object
-[submodule "vim-rake"]
-	path = vim-rake
-	url = https://github.com/tpope/vim-rake
-[submodule "vim-bundler"]
-	path = vim-bundler
-	url = https://github.com/tpope/vim-bundler
 [submodule "vim-misc"]
 	path = vim-misc
 	url = https://github.com/xolox/vim-misc
