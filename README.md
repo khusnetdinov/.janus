@@ -52,6 +52,4 @@ Additional plugina are included to this distribution.
  Todo
 ## [Sessions](https://github.com/xolox/vim-session)
  Todo
-## [Ultisnippets](https://github.com/SirVer/ultisnips)
- Todo
 
