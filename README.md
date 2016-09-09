@@ -20,7 +20,7 @@ $ curl -L http://bit.ly/2bTpEk4 | bash
 # More languages:
 
  - EcmaScript 7
- - Jsx 
+ - Jsx
  - Elm
 
 # More tools:
@@ -34,5 +34,4 @@ Additional plugins are included to this distribution.
  - [Emmet](https://github.com/mattn/emmet-vim)
  - [Elixir Mix](https://github.com/mattreduce/vim-mix)
  - [React Jsx](https://github.com/mxw/vim-jsx)
- - [Sessions](https://github.com/xolox/vim-session)
- 
+
