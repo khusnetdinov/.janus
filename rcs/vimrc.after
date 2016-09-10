@@ -59,6 +59,11 @@ set shiftround
 set expandtab
 set autoindent
 
+"" Backup
+set nobackup
+set nowritebackup
+set noswapfile
+
 "*****************************************************************************
 """ Mappings
 "*****************************************************************************
