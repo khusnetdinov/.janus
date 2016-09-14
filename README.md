@@ -4,7 +4,7 @@ Vim files for customization janus distribution.
 
 ## Pre-requisites
 
-You need install [Janus distribution](https://github.com/carlhuda/janus) of Vim.
+You need install [Janus distribution](https://github.com/carlhuda/janus) of Vim. For using theme for vim tmux line need to install to system fonts from powerline plugin and use them in terminal setting.
 
 Also this distribution requires `jq`.
 
@@ -59,6 +59,10 @@ Plugin for using Elixir's build tool, `mix`.
 ## [Ruby block object](https://github.com/nelstrom/vim-textobj-rubyblock)
 
 When plugin is installed you will gain two new text objects, which are triggered by `ar` and `ir` respectively. These follow Vim convention, so that `ar` selects _all_ of a _ruby block_, and `ir` selects the _inner portion_ of a _rubyblock_.
+
+## [Tmuxline](https://github.com/edkolev/tmuxline.vim)
+
+Theme for tmuxline with installation [powerline fonts](https://github.com/powerline/fonts). Fonts should be installed to you systems for corrrect reddering in vim.
 
 # License
 
