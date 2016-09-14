@@ -1,17 +1,19 @@
 #!/bin/bash
 
-function die()
-{
+function die() {
   echo "${@}"
   exit 1
 }
 
-# Clone Janus into .janus
+function link_file() {
+  ln -s "${HOME}/.janus/rcs/${@}" "${HOME}/.${@}" || die "Could not link ${@} @ to .${@}"
+  echo ".${@} has been linked to .janus/rcs/${@}"
+}
+
 git clone --recursive https://github.com/khusnetdinov/.janus.git "${HOME}/.janus" \
   || die "Could not clone the repository to ${HOME}/.janus"
 
-# Add .vimrc files to the home directory
-for vimrc in "vimrc.after" "vimrc.before"; do
-  ln -s "${HOME}/.janus/rcs/${vimrc}" "${HOME}/.${vimrc}" || die "Could not link ${vimrc} file to .${vimrc}"
-  echo ".${vimrc} has been linked to .janus ${vimrc}"
+for rc in "${HOME}/.janus/rcs/*"; do
+  link_file rc
 done
+
