@@ -5,15 +5,12 @@ function die() {
   exit 1
 }
 
-function link_file() {
-  ln -s "${HOME}/.janus/rcs/${@}" "${HOME}/.${@}" || die "Could not link ${@} @ to .${@}"
-  echo ".${@} has been linked to .janus/rcs/${@}"
-}
-
 git clone --recursive https://github.com/khusnetdinov/.janus.git "${HOME}/.janus" \
   || die "Could not clone the repository to ${HOME}/.janus"
 
-for rc in "${HOME}/.janus/rcs/*"; do
-  link_file rc
+# Add .vimrc files to the home directory
+for rc in "vimrc.after" "vimrc.before" "ackrc"; do
+  ln -s "${HOME}/.janus/rcs/${rc}" "${HOME}/.${rc}" || die "Could not link ${rc} file to .${rc}"
+  echo ".${rc} has been linked to .janus ${rc}"
 done
 
