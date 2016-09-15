@@ -14,3 +14,6 @@ for rc in "vimrc.after" "vimrc.before" "ackrc"; do
   echo ".${rc} has been linked to .janus ${rc}"
 done
 
+# Add fonts to system
+open "${HOME}/.janus/fonts/Meslo/*"
+echo "Please add fonts to System and change Iterm Fonts Settings"
