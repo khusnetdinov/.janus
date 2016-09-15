@@ -46,3 +46,6 @@
 [submodule "fonts"]
 	path = fonts
 	url = https://github.com/powerline/fonts
+[submodule "tmuxline.vim"]
+	path = tmuxline.vim
+	url = https://github.com/edkolev/tmuxline.vim
